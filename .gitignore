@@ -1,0 +1,21 @@
+# Never commit data or outputs: DHS and DHIMS2 data are licensed, the GHS facility list has no stated licence.
+data/*
+!data/raw/
+data/raw/*
+!data/raw/README.md
+out/
+*.tif
+*.rds
+*.DTA
+*.dta
+*.shp
+*.dbf
+*.shx
+*.prj
+*.xlsx
+*.docx
+*.png
+*.log
+.DS_Store
+__pycache__/
+.Rhistory

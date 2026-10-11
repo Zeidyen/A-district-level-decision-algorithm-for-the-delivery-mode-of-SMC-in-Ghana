@@ -1,0 +1,8 @@
+# Python packages (developed with Python 3.14)
+numpy
+pandas
+scipy
+scikit-learn
+shap
+matplotlib
+python-docx
