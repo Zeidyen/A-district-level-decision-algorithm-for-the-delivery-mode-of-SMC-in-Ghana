@@ -78,6 +78,10 @@ The algorithm's thresholds (evidence range for k, confidence level, campaign tar
 
 Please cite the paper once published. Citation details will be added here.
 
+## Licence
+
+The code is released under the [MIT License](LICENSE). The licence covers the code only; the input data keep their own terms (see [Data](#data)).
+
 ## Contact
 
 Abdulzeid Yen Anafo — University of Mines and Technology (UMaT), Tarkwa, Ghana.
