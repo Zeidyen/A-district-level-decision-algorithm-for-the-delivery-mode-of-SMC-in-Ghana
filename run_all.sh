@@ -35,6 +35,7 @@ echo "== 30_equity.py"; python3 -u scripts/30_equity.py > out/logs/30_equity.log
 step 31_delivery_algorithm.R  # SMC delivery-mode algorithm (district decision rule)
 step 32_k_dropout_bias.R   # bias from calibrating k on dropout (Supplementary Text S1)
 step 33_sobol_total.R      # first-order and total-effect Sobol indices (Supplementary Text S4)
+step 34_study_site_map.R   # study site map (greyscale, Africa inset)
 echo "== 10_step4_impact.R prior15"; Rscript scripts/10_step4_impact.R prior15 > out/logs/10_step4_prior15.log 2>&1 || { echo "FAILED: prior15"; exit 1; }
 step 15_wet_access.R       # rainy-season access (JRC surface water)
 step 16_env_plots.R        # environmental layers (rainfall, surface water, elevation, MAP)

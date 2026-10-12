@@ -52,6 +52,7 @@ Run everything from the repository root. Inputs go in `data/raw/` (layout in [`d
 | `31_delivery_algorithm.R` | The SMC delivery-mode algorithm, its map and flowchart |
 | `32_k_dropout_bias.R` | Bias from calibrating k on dropout rather than lateness |
 | `33_sobol_total.R` | First-order and total-effect Sobol indices |
+| `34_study_site_map.R` | Study site map: the five SMC regions and their 55 districts, with an Africa inset |
 | `13_summary_docx.py`, `23_manuscript_docx.py` | Report generators (results summary; Word version of the manuscript) |
 | `compare_runs.py` | Compare outputs between two runs |
 
@@ -72,6 +73,7 @@ The algorithm's thresholds (evidence range for k, confidence level, campaign tar
 | Surface water seasonality | [JRC Global Surface Water](https://global-surface-water.appspot.com/) | Open |
 | Elevation | SRTM via the `geodata` R package | Open |
 | Administrative boundaries | [geoBoundaries](https://www.geoboundaries.org/) gbOpen GHA ADM1 and ADM2 | Open |
+| Country outlines (map inset) | GADM, via the `geodata` R package | Free for academic use; downloaded by `34_study_site_map.R` |
 | SMC administrative coverage (optional) | National Malaria Elimination Programme | On request; used only if supplied |
 
 ## Citation
